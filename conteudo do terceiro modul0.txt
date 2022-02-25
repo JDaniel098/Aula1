@@ -1,0 +1,13 @@
+1) O que é Git e Github?
+-repositorios locais:
+-Git
+
+-repositorios remotos:
+-GitHub
+
+
+softwares para armazenar versões:
+-Git;
+
+software
+-GitHub;

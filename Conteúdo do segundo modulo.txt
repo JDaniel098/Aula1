@@ -1,0 +1,163 @@
+1) Psicologia das Cores:
+
+conceitos de cores:
+
+
+sites:
+Dell;
+Intel;
+HP;
+Facebook;
+Twitter.
+coisas em comum é que todos possuem a mesma cor.
+
+usar cores padrões em que nossos cérebros já estão acostumado;
+
+representações das cores:
+
+-Decimal;
+-Hexadecimal;
+-rgb;
+-por nomes;
+-HSL.
+
+3)Paleta de cores:
+
+-color.adobe.com;
+RGB;
+-Paletton.com;
+-coolors.com;
+
+4) como criar um degradê com css?:
+
+-direita
+ <style>
+   body {
+       background-image: linear-gradient(to left, white, blue);
+   }     
+    </style>
+-esquerda
+ <style>
+   body {
+       background-image: linear-gradient(to right, white, blue);
+   }     
+    </style>
+-global
+ <style>
+   body {
+       background-image: linear-gradient(to top, white, blue);
+   }     
+    </style>
+</style>
+-global
+ <style>
+   body {
+       background-image: linear-gradient(to bottom, white, blue);
+   }     
+    </style>
+
+-configurAção Global:
+* {
+}
+
+paletas oficiais: 
+
+4)como capturar cores de tela?:
+
+-GIMP;
+-Chrome web store:
+colorzilla.
+
+5) Exemplo real:
+
+-EstudoNauta
+
+-@carset-UTF8
+
+<html>
+<head>
+
+ <title> </title>
+
+</head>
+<body>
+
+ <main>
+  <h1>Exeolo</h1>
+ </main>
+
+</body>
+<html>
+
+6) O que é tipografia?:
+ tipografia: o termo surge no sec 15 com a origem da imprensa.
+
+7) Anatomia do tipo:
+
+8) famílias de fontes com css:
+
+-css web safe font combinations;
+
+9) tamanho das fontes e suas medidas:
+-medidas absolutas:
+1)cm - centímetros;
+2)mm - milímetros;
+3)in - polegadas;
+4)px - píxel;
+5)pt - ponto;
+6)pc - paica.
+
+-medidas relativas:
+1)em- medída relativa ao tamanho natural da fonte;  
+2)ex - relativo a altura x de uma tela;
+3)rem - 
+4)vw - tamanho da tela, porcentagem da viewPort da largura;
+5)vh - largura da vw
+
+10) peso, estilo e shorthand font:
+
+peso da font: -font weight;
+
+/* weight(peso9)- width(largura)- height(altura)*/
+
+pesos literais:
+
+/*lighter(mais magrinho, mais leve) - normal -  bold (negrito) - bolder (extra negrito)*/
+font - style;
+
+sublinhar - (text decoration: underline)
+
+-shorthand font: condensação de todas as configurações, várias coisas em uma única linha;
+/*font style - font weight - font size - family*/
+
+11) usando o google fonts:
+fonts.google.com
+
+12) usando fontes externas baixadas:
+
+- site dafont;
+regra: @fontface para usar fonts;
+
+/*
+ tipos de format ()
+ -opentype; (otf)
+ -truetype; (ttf)
+ -embedded-opentype;
+ -truetype-aat(Apple advanced tipografy);
+ -svg.
+
+*/
+
+13) capturando as fontes usadas em um site:
+
+-fonts ninja;
+
+14-) detectando fontes dentro de imagens:
+-whatFontIs.com;
+-FontSquirrel;
+-MyFont.com
+
+15) alinhamento de textos no css:
+A tag "<center></center>" está obsoleta.
+
+-text-indent: texto estilo redação.
